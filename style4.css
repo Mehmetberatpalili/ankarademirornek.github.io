@@ -1,0 +1,105 @@
+ul {
+    list-style-type: none;
+    margin: -13px;
+    padding: 0px;
+    margin-right: -7.5px;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+  
+  display:inline-block;
+  float: right;
+  margin-right: 29px;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:#53ccf6; 
+    
+}
+
+ul li ul {
+    background-color:#8d0e0e;
+    display:none;
+    position:absolute;
+    width:115px
+}
+
+ul li:hover ul{
+    display:block;
+}
+li ul li {
+    display:block; 
+}
+
+* {box-sizing:border-box}
+body{
+    background-color:#6c8a8b
+
+}
+.map{
+    
+   
+    margin-top: 125px;
+    margin-left: 90px;
+    
+} 
+h1{
+   margin-left: 95px;
+   color: aliceblue;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ 
+#verticle{
+    width: 50px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 500px;
+  
+}
+.kutu{
+    width: 2px;
+    height:255px;
+    margin-left: 550px;
+    margin-top: -255px;
+    background-color:#ffffff;
+}
+
+
+.footer{
+    margin-top: auto;
+    text-align: center;
+    margin: auto;
+    width: 1300px;
+        height: 130px;
+        
+        background-color:#000000;
+  }
+  .ikonlar {
+    margin-left: 1090px;
+    margin-top: -25px;
+  }
+  .saat{
+    margin-top: -60px;
+    width: 50px;
+    margin-left: 35px;
+  }
+  .yazı{
+      margin-left: 625px;
+      color: aliceblue;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-top: -150px;
+      font-size: 15px;
+
+  }
